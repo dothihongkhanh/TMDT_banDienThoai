@@ -21,10 +21,11 @@
 <link rel="stylesheet" href="assets\css\animate.min.css">
 <link rel="stylesheet" href="assets\css\rateit.css">
 <link rel="stylesheet" href="assets\css\bootstrap-select.min.css">
+<link rel="stylesheet" href="assets\css\do.css">
 
 <!-- Icons/Glyphs -->
 <link rel="stylesheet" href="assets\css\font-awesome.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 <!-- Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
@@ -34,7 +35,6 @@
 <body class="cnt-home">
 <!-- ============================================== HEADER ============================================== -->
 <header class="header-style-1"> 
-  
   <!-- ============================================== TOP MENU ============================================== -->
   <div class="top-bar animate-dropdown">
     <div class="container">
@@ -294,9 +294,8 @@
                       <!-- /.yamm-content --> </li>
                   </ul>
                 </li>
-                <li class="dropdown hidden-sm"> <a href="category.html"><span class="menu-label new-menu hidden-xs">new</span> </a> </li>
                 <li class="dropdown hidden-sm"> <a href="category.html">Apple Watch</a> </li>
-                <li class="dropdown"> <a href="contact.html">SamSung</a> </li>
+                <li class="dropdown"> <a href="contact.html">SamSung <span class="menu-label hot-menu hidden-xs">hot</span> </a> </li>
                 <li class="dropdown"> <a href="contact.html">Oppo</a> </li>
                 <li class="dropdown"> <a href="contact.html">Xiaomi</a> </li>
                 <li class="dropdown"> <a href="contact.html">Vivo</a> </li>
@@ -352,6 +351,13 @@
   <!-- ============================================== NAVBAR : END ============================================== --> 
   
 </header>
+<div class="share-fast-mall">
+  <div class="yt share-item">
+    <a class="yt-icon" href="https://www.youtube.com/" title="link youtube" ><i class="fa-brands fa-youtube" style="color: #ff0000;"></i></a>
+    <a class="fb-icon" href="https://www.youtube.com/" title="link facebook" ><i class="fa-brands fa-facebook-f" style="color: #015efe;"></i></a>
+    <a class="tt-icon" href="https://www.youtube.com/" title="link tiktok" ><i class="fa-brands fa-tiktok"></i></a>
+  </div>
+</div>
 
 <!-- ============================================== HEADER : END ============================================== -->
 <div class="body-content outer-top-xs" id="top-banner-and-menu">
@@ -365,7 +371,7 @@
           <div class="head"><i class="icon fa fa-align-justify fa-fw"></i> Danh mục sản phẩm</div>
           <nav class="yamm megamenu-horizontal">
             <ul class="nav">
-              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-shopping-bag" aria-hidden="true"></i>iPhone</a>
+              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa-solid fa-mobile-screen-button" style="color: #000000;" aria-hidden="true"></i>iPhone</a>
                 <ul class="dropdown-menu mega-menu">
                   <li>
                     <div class="yamm-content ">
@@ -435,7 +441,7 @@
                 <!-- /.dropdown-menu --> </li>
               <!-- /.menu-item -->
               
-              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-laptop" aria-hidden="true"></i>iPad</a> 
+              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa-solid fa-tablet-screen-button" style="color: #000000;" aria-hidden="true"></i>iPad</a> 
                 <!-- ================================== MEGAMENU VERTICAL ================================== -->
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
@@ -478,7 +484,7 @@
                 <!-- ================================== MEGAMENU VERTICAL ================================== --> </li>
               <!-- /.menu-item -->
               
-              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-paw" aria-hidden="true"></i>Apple Watch</a>
+              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-clock-o"></i>Apple Watch</a>
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
                     <div class="row">
@@ -542,7 +548,7 @@
                 <!-- /.dropdown-menu --> </li>
               <!-- /.menu-item -->
               
-              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-clock-o"></i>SamSung</a>
+              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa-solid fa-mobile-screen"></i>SamSung</a>
                 <ul class="dropdown-menu mega-menu">
                   <li class="yamm-content">
                     <div class="row">
@@ -698,7 +704,7 @@
                 <!-- ================================== MEGAMENU VERTICAL ================================== --> </li>
               <!-- /.menu-item -->
               
-              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa fa-envira"></i>Phụ kiện</a> 
+              <li class="dropdown menu-item"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon fa-solid fa-headphones"></i>Phụ kiện</a> 
                 <!-- /.dropdown-menu --> </li>
               <!-- /.menu-item -->
               
@@ -1493,56 +1499,20 @@
         
         <div id="hero">
           <div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
-            <div class="item" style="background-image: url(assets/images/sliders/slider1.jpg);">
-              <div class="container-fluid">
-                <div class="caption bg-color vertical-center text-left">
-                  <div class="slider-header fadeInDown-1">Top Brands</div>
-                  <div class="big-text fadeInDown-1"> New Collections </div>
-                  <div class="excerpt fadeInDown-2 hidden-xs"> <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> </div>
-                  <div class="button-holder fadeInDown-3"> <a href="index.php?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Shop Now</a> </div>
-                </div>
-                <!-- /.caption --> 
-              </div>
+            <div class="item" style="background-image: url(assets/images/sliders/slider1.jpg); border-radius: 8px;">
               <!-- /.container-fluid --> 
             </div>
             <!-- /.item -->
             
-            <div class="item" style="background-image: url(assets/images/sliders/slider2.jpg);">
-              <div class="container-fluid">
-                <div class="caption bg-color vertical-center text-left">
-                  <div class="slider-header fadeInDown-1">Spring 2016</div>
-                  <div class="big-text fadeInDown-1"> Women <span class="highlight">Fashion</span> </div>
-                  <div class="excerpt fadeInDown-2 hidden-xs"> <span>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</span> </div>
-                  <div class="button-holder fadeInDown-3"> <a href="index.php?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Shop Now</a> </div>
-                </div>
-                <!-- /.caption --> 
-              </div>
+            <div class="item" style="background-image: url(assets/images/sliders/slider2.jpg); border-radius: 8px;">
               <!-- /.container-fluid --> 
             </div>
             <!-- /.item --> 
-            <div class="item" style="background-image: url(assets/images/sliders/slider4.jpg);">
-              <div class="container-fluid">
-                <div class="caption bg-color vertical-center text-left">
-                  <div class="slider-header fadeInDown-1">Spring 2016</div>
-                  <div class="big-text fadeInDown-1"> Women <span class="highlight">Fashion</span> </div>
-                  <div class="excerpt fadeInDown-2 hidden-xs"> <span>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</span> </div>
-                  <div class="button-holder fadeInDown-3"> <a href="index.php?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Shop Now</a> </div>
-                </div>
-                <!-- /.caption --> 
-              </div>
+            <div class="item" style="background-image: url(assets/images/sliders/slider4.jpg); border-radius: 8px;">
               <!-- /.container-fluid --> 
             </div>
             <!-- /.item --> 
-            <div class="item" style="background-image: url(assets/images/sliders/slider3.jpg);">
-              <div class="container-fluid">
-                <div class="caption bg-color vertical-center text-left">
-                  <div class="slider-header fadeInDown-1">Spring 2016</div>
-                  <div class="big-text fadeInDown-1"> Women <span class="highlight">Fashion</span> </div>
-                  <div class="excerpt fadeInDown-2 hidden-xs"> <span>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</span> </div>
-                  <div class="button-holder fadeInDown-3"> <a href="index.php?page=single-product" class="btn-lg btn btn-uppercase btn-primary shop-now-button">Shop Now</a> </div>
-                </div>
-                <!-- /.caption --> 
-              </div>
+            <div class="item" style="background-image: url(assets/images/sliders/slider3.jpg); border-radius: 8px;">
               <!-- /.container-fluid --> 
             </div>
             <!-- /.item --> 
@@ -1608,6 +1578,95 @@
         </div>
         <!-- /.info-boxes -->
         <!-- ============================================== INFO BOXES : END ============================================== --> 
+
+        <!--================================================BUTTON BRAND =====================================================-->
+        <div class="info-brands wow fadeInUp">
+          <div class="info-brands-inner">
+            <div class="row">
+              <div class="col-md-4 col-sm-2 col-lg-2">
+                <div class="info-brand">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="#" title="apple">
+                        <img class="info-brand-img" alt="apple" src="assets/images/brands/apple.png">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .col -->
+              
+              <div class="col-md-4 col-sm-2 col-lg-2">
+                <div class="info-brand">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="#" title="SamSung">
+                        <img class="info-brand-img" alt="SamSung" src="assets/images/brands/samsung.png">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .col -->
+              
+              <div class="col-md-4 col-sm-2 col-lg-2">
+                <div class="info-brand">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="#" title="Oppo">
+                        <img class="info-brand-img" alt="Oppo" src="assets/images/brands/oppo.jpg">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .col --> 
+              <div class="col-md-4 col-sm-2 col-lg-2">
+                <div class="info-brand">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a class="info-box-heading green" href="#" title="Xiaomi">
+                        <img class="info-brand-img" alt="Xiaomi" src="assets/images/brands/xiaomi.png">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .col --> 
+              <div class="col-md-4 col-sm-2 col-lg-2">
+                <div class="info-brand">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a class="info-box-heading green" href="#" title="Vivo">
+                        <img class="info-brand-img" alt="Vivo" src="assets/images/brands/vivo.png">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .col --> 
+              <div class="col-md-4 col-sm-2 col-lg-2">
+                <div class="info-brand">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a class="info-box-heading green" href="#" title="Realme">
+                        <img class="info-brand-img" alt="Realme" src="assets/images/brands/realme.png">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- .col --> 
+            </div>
+            <!-- /.row --> 
+          </div>
+          <!-- /.info-boxes-inner --> 
+          
+        </div>
+        <!-- /.info-boxes -->
+        <!--================================================BUTTON BRAND: END=====================================================-->
+
+
         <!-- ============================================== SCROLL TABS ============================================== -->
         <div id="product-tabs-slider" class="scroll-tabs outer-top-vs wow fadeInUp">
           <div class="more-info-tab clearfix ">
@@ -3609,51 +3668,58 @@
     </div>
     <!-- /.row --> 
     <!-- ============================================== BRANDS CAROUSEL ============================================== -->
-    <div id="brands-carousel" class="logo-slider wow fadeInUp">
+    <!--
+      <div id="brands-carousel" class="logo-slider wow fadeInUp">
       <div class="logo-slider-inner">
         <div id="brand-slider" class="owl-carousel brand-slider custom-carousel owl-theme">
           <div class="item m-t-15"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+          
           
           <div class="item m-t-10"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+          
           
           <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand3.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+          
           
           <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+          
           
           <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+         
           
           <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand6.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+          
           
           <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand2.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+          
           
           <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand4.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+         
           
           <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand1.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item-->
+         
           
           <div class="item"> <a href="#" class="image"> <img data-echo="assets/images/brands/brand5.png" src="assets\images\blank.gif" alt=""> </a> </div>
-          <!--/.item--> 
+         
         </div>
-        <!-- /.owl-carousel #logo-slider --> 
+        
       </div>
-      <!-- /.logo-slider-inner --> 
+      
       
     </div>
+    -->
+    
     <!-- /.logo-slider --> 
     <!-- ============================================== BRANDS CAROUSEL : END ============================================== --> 
   </div>
   <!-- /.container --> 
 </div>
 <!-- /#top-banner-and-menu --> 
-
+<div class="share-fast-mall">
+  <div class="yt share-item">
+    <a class="yt-icon" href="https://www.youtube.com/" title="link youtube" ><i class="fa fa-youtube-play" style="font-size:48px;color:red"></i></a>
+  </div>
+</div>
 <!-- ============================================================= FOOTER ============================================================= -->
 <footer id="footer" class="footer color-bg">
   <div class="footer-bottom">
@@ -3795,5 +3861,6 @@
 <script src="assets\js\bootstrap-select.min.js"></script> 
 <script src="assets\js\wow.min.js"></script> 
 <script src="assets\js\scripts.js"></script>
+<script src="assets\js\script_k.js"></script>
 </body>
 </html>

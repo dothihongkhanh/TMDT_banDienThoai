@@ -1,0 +1,22 @@
+.info-brands .info-brand {
+    margin-bottom: 10px;
+  }
+.info-brands-inner {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+  margin-top: 5px;
+  border-radius: 8px;
+}
+.info-brands .info-brand .info-brand-heading.orange {
+  color: #ffb847;
+}
+.info-brands .info-brand .info-brand-heading.red {
+  color: #ff7878;
+}
+.info-brands .info-brand .a {
+    width: 50px;
+  
+}
+.info-brand-img {
+    width: 100%;
+}

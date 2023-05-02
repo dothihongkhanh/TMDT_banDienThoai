@@ -1381,7 +1381,7 @@ header{background:#ff2d2b}
 
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li > a {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
-  color: #FFFFFF;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -1439,16 +1439,13 @@ header{background:#ff2d2b}
   border-color: #f1c40f rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.hot-menu {
-  background: #ff7878;
+  background: #00FF00;
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.hot-menu:after {
-  border-color: #ff7878 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  border-color: #00FF00 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 .header-style-1 .header-nav .navbar-default .navbar-collapse .navbar-nav > li .menu-label.hot-menu:before {
-  border-color: #ff7878 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
-}
-.header-style-2 {
-  /*margin-bottom:10px;*/
+  border-color: #00FF00 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 .header-style-2 .header-nav {
   background: rgba(0, 0, 0, 0) !important;
@@ -1616,7 +1613,7 @@ header{background:#ff2d2b}
 
 .sidebar .side-menu {
     background-color: #fff;
-    border-radius: 2px;
+    border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 }
 
@@ -1626,7 +1623,7 @@ header{background:#ff2d2b}
 .sidebar .side-menu .head {
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  border-radius: 0px;
+  border-radius: 8px 8px 0px 0px;
   color: #333;
   font-size: 14px;
   font-family: 'Open Sans', sans-serif;
@@ -1640,6 +1637,7 @@ header{background:#ff2d2b}
 }
 .sidebar .side-menu .head .icon {
   margin-right: 5px;
+  color: #000;
 }
 .sidebar .side-menu nav .nav > li {
   -moz-border-bottom-colors: none;
@@ -1681,6 +1679,7 @@ header{background:#ff2d2b}
 .sidebar .side-menu nav .nav > li > a .icon {
   font-size: 16px;
   margin-right: 12px;
+  color: #000;
 }
 .sidebar .side-menu nav .nav > li > a:hover,
 .sidebar .side-menu nav .nav > li > a:focus {
@@ -5804,3 +5803,4 @@ z-index:10000
     margin-top: 30px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
 	}
+  /*========================Do code----------------------------*/
