@@ -1629,11 +1629,11 @@ header{background:#ff2d2b}
   font-family: 'Open Sans', sans-serif;
   padding: 12px 17px;
   text-transform: uppercase;
-  background-color: #fdd922;
-    border: 1px solid #e9c532;
+  background-color: #ff2d2b;
+    border: 1px solid #ff2d2b;
 	font-weight:700;
 	letter-spacing: 0.5px;
-	border-bottom:1px #f1ce3c solid
+	border-bottom:1px #ff2d2b solid
 }
 .sidebar .side-menu .head .icon {
   margin-right: 5px;
@@ -1947,7 +1947,7 @@ header{background:#ff2d2b}
 #owl-main {
   text-align: center;
   cursor: default;
-  height: 368px;
+  height: 390px;
 }
 #owl-main .owl-controls {
   display: inline-block;
@@ -2303,7 +2303,8 @@ header{background:#ff2d2b}
   background-color: #FFFFFF;
   background-position: center 55%;
   background-size: cover;
-  height: 370px;
+  height: 390px;
+  border-radius: 8px 8px 0 0;
 }
 #owl-main .item .caption {
   color: #636363;
@@ -2586,11 +2587,10 @@ age-container #owl-main .owl-next {
 .info-boxes-inner {
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
-  margin-top: 5px;
-  border-radius: 8px;
+  border-radius: 0 0 8px 8px;
 }
 .info-boxes .info-box {
-  padding:20px 25px;
+  padding:10px 15px;
   text-align:center;
 }
 .info-boxes .info-box .icon {
@@ -4496,7 +4496,7 @@ age-container #owl-main .owl-next {
 #owl-main {height:100%}
 #owl-main .item {height:150px}
 #owl-main .item .caption .button-holder {margin:0px}
-#hero .btn-primary {padding:5px 10px; font-size:12px; line-height:normal; margin-top:8px}
+#hero .btn-primary {padding:5px px; font-size:12px; line-height:normal; margin-top:8px}
 
 }
 

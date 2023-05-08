@@ -4,7 +4,7 @@
 .info-brands-inner {
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
-  margin-top: 5px;
+  margin-top: 10px;
   border-radius: 8px;
 }
 .info-brands .info-brand .info-brand-heading.orange {
@@ -13,10 +13,81 @@
 .info-brands .info-brand .info-brand-heading.red {
   color: #ff7878;
 }
-.info-brands .info-brand .a {
-    width: 50px;
+.info-brands .info-brand {
+    margin-right: 10px;
   
 }
 .info-brand-img {
     width: 100%;
+    padding-top: 15px;
+}
+/*----------------------chat------------------------------*/
+
+/*----------------------yt------------------------------*/
+.share-fast-mall {
+  position: fixed;
+  left: 10px;
+  top: 40%;
+  z-index: 2;
+}
+.youtube-button {
+  display: block;
+  margin: 10px;
+}
+.youtube-button a {
+  display: inline-block;
+  padding: 5px 8px;
+  border: 2px solid #ff0000;
+  color: #ff2d2b;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.youtube-button a:hover {
+  background-color: #ff2d2b;
+  color: #fff;
+}
+
+.fb-button {
+  display: block;
+  margin: 10px;
+}
+.fb-button a {
+  display: inline-block;
+  padding: 5px 13px;
+  border: 2px solid #0033FF;
+  color: #0033FF;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.fb-button a:hover {
+  background-color: #0033FF;
+  color: #fff;
+}
+
+.tt-button {
+  display: block;
+  margin: 10px;
+}
+.tt-button a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 2px solid #003333;
+  color: #003333;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.tt-button a:hover {
+  background-color: #003333;
+  color: #fff;
 }
