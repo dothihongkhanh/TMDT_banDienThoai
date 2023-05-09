@@ -227,7 +227,7 @@ a {
   color: #0f6cb2;
 }
 .single-product .product-info .price-container .price-box .price {
-  color: #ff7878;
+  color: red;
 }
 .single-product .product-info .quantity-container .cart-quantity .arrows .arrow:hover,
 .single-product .product-info .quantity-container .cart-quantity .arrows .arrow:focus {
