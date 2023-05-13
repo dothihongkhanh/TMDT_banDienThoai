@@ -91,3 +91,79 @@
   background-color: #003333;
   color: #fff;
 }
+
+/*---------------------promotion----------------------*/
+.promotion {
+  margin-top: 20px;
+  border: #ddd 1px solid;
+  padding: 20px 10px 10px 10px;
+  position: relative;
+}
+.promotion i{
+  margin-right: 5px;
+}
+.promotion .label {
+  position: absolute;
+  top: -12px;
+  left: 13px;
+  background-color: #ff2d2b;
+  color: white;
+  padding: 5px 10px;
+  align-items: center;
+  display: flex;
+  border-radius: 5px;
+  font-size: 10pt;
+}
+/*-------------------------product tab ------------------------*/
+.product-tab .owl-carousel .item {
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+/*--------------------------products together ------------------------------*/
+.products-together-item {
+  display: flex;
+  border: 1px #e3e3e3 solid;
+  padding: 3px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.products-together-item .name{
+  font-size: 13px;
+  font-weight: bold;
+}
+.products-together-item .price{
+  font-size: 13px;
+  font-weight: bold;
+  color: #ff0000;
+  padding: 0;
+  margin: 0;
+}
+.products-together-item a{
+  font-size: 10px;
+}
+.products-together-item img {
+  width: 25%;
+  margin: 0;
+  padding: 0 3px 0 0;
+  height: 100%;
+}
+/*--------------------------products news ------------------------------*/
+.products-news-item {
+  display: flex;
+  padding: 3px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.products-news-item .name{
+  font-size: 13px;
+  color: rgb(82, 81, 81);
+}
+.products-news-item img {
+  width: 25%;
+  margin: 0;
+  padding: 0 3px 0 0;
+  height: 100%;
+}
+/*-------------------------------SP SAME PRICE ------------------*/
