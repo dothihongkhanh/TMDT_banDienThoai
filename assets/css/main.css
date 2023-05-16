@@ -1201,7 +1201,8 @@ header{background:#ff2d2b}
   justify-content: center;
 }
 .main-header .top-search-holder {
-  width: 280px;
+  width: 195px;
+  padding: 0;
 }
 .main-header .top-search-holder .search-area {
   margin-top: 8px;
@@ -1229,7 +1230,8 @@ header{background:#ff2d2b}
 }
 .top-cart-row {
   padding-top:8px;
-  padding-left:0px
+  padding-left:0px;
+  padding-right: 0;
 }
 .top-cart-row .dropdown-cart {
   float: left;
@@ -3812,12 +3814,12 @@ age-container #owl-main .owl-next {
   margin-bottom: 0;
   padding-bottom: 10px;
 }
-.single-product .product-info .price-container .price-box .price {
+.price-box .price {
   font-size: 30px;
   font-weight: 700;
   line-height: 50px;
 }
-.single-product .product-info .price-container .price-box .discount {
+.price-box .discount {
   font-size: 12;
   font-weight: 500;
   line-height: 20px;
@@ -3828,7 +3830,7 @@ age-container #owl-main .owl-next {
   margin-right: 5px;
   
 }
-.single-product .product-info .price-container .price-box .price-strike {
+ .price-box .price-strike {
   color: #aaa;
   font-size: 16px;
   font-weight: 300;
@@ -3859,32 +3861,32 @@ age-container #owl-main .owl-next {
   padding: 20px 0;
   color: #fff;
 }
-.single-product .product-info .quantity-container .buynow {
+ .buynow {
   margin-bottom: 8px;
 }
-.single-product .product-info .quantity-container .buynow .btn-primary{
+ .buynow .btn-primary{
   width: 100%;
   background-color: #ff2d2b;
 }
-.single-product .product-info .quantity-container .buynow .btn-primary .buynow-sp1{
+ .buynow .btn-primary .buynow-sp1{
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12pt;
 }
-.single-product .product-info .quantity-container .buy-half{
+ .buy-half{
   display: flex;
   width: 100%;
   text-align: center;
   font-weight: bold;
   
 }
-.single-product .product-info .quantity-container .buy-half .btn-addcart{
+ .buy-half .btn-addcart{
   width: 48%;
   border: 1px solid #ff2d2b;
   padding: 15px;
   color: #ff2d2b;
 }
-.single-product .product-info .quantity-container .buy-half .btn-tragop{
+ .buy-half .btn-tragop{
   margin-left:8px;
   width: 50%;
   float: right;
@@ -4008,14 +4010,8 @@ age-container #owl-main .owl-next {
 .single-product .product-tabs .tab-content .tab-pane .text {
   line-height: 20px;
 }
-.single-product .email-signup {
-  margin-top: 30px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
-  padding: 0px;
-  overflow:hidden;
-  margin-bottom:30px;
-  padding: 20px;
+.single-product .email-signup .row{
+  padding-top: 20px;
 }
 .single-product .email-signup .email-txt{
   display: flex;

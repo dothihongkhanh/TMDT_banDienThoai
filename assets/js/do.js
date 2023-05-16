@@ -48,3 +48,50 @@ document.addEventListener("click", function(event) {
     body2.classList.remove("dialog-open");
   }
 });
+
+//Frequently asked questions
+var methodBox = document.querySelector(".frequently-asked-questions");
+var methodBtn = methodBox.querySelector(".fad-show-ans");
+var methodText = methodBox.querySelector(".faq-answer");
+
+methodBtn.addEventListener("click", function() {
+  if (methodText.style.display === "none") {
+    methodText.style.display = "block";
+  } else {
+    methodText.style.display = "none";
+  }
+});
+
+//xóa lịch sử sản phẩm đã xem
+function hideDiv() {
+  var div = document.getElementById("products-viewed");
+  div.style.display = "none";
+}
+
+//cuon trang
+window.onscroll = function() {
+  var div = document.getElementById("productAnchor_horizonalNav");
+  if (window.scrollY > 800) {
+      div.style.display = "block";
+  } else {
+      div.style.display = "none";
+  }
+}
+
+//so sanh san pham
+var openDialogBtnCompare = document.getElementById("open-dialog-btn-comparation");
+var dialogCompare = document.querySelector(".stickcompare");
+var closeDialogBtnCompare = document.getElementById("clearall");
+var bodyCompare = document.querySelector("body");
+
+// Mở hộp thoại khi click vào nút
+openDialogBtnCompare.addEventListener("click", function() {
+  dialogCompare.style.display = "block";
+  bodyCompare.classList.add("dialog-open");
+});
+
+// Đóng hộp thoại khi click vào nút đóng
+closeDialogBtnCompare.addEventListener("click", function() {
+  dialogCompare.style.display = "none";
+  bodyCompare.classList.remove("dialog-open");
+});
