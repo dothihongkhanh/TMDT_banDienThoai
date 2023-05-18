@@ -423,7 +423,7 @@ left:0px
 .navbar-nav>li>.dropdown-menu { box-shadow:0 4px 6px -1px rgba(0,0,0,0.4);}
 
 .product-comparison .compare-table tr td .product-price .price {
-  color: #0f6cb2;
+  color: #ff2d2b;
 }
 .product-comparison .compare-table tr td .in-stock {
   color: #0f6cb2;
@@ -433,7 +433,7 @@ left:0px
   color: #0f6cb2;
 }
 .product-comparison .compare-table tr td .product-price .price {
-  color: #0f6cb2;
+  color: #ff2d2b;
 }
 .product-comparison .compare-table tr td .in-stock {
   color: #0f6cb2;
@@ -450,7 +450,7 @@ left:0px
   color: #0f6cb2;
 }
 .body-content .my-wishlist-page .my-wishlist table tbody .price {
-  color: #0f6cb2;
+  color: #ff2d2b;
 }
 .terms-conditions-page .contact-form {
   color: #0f6cb2;

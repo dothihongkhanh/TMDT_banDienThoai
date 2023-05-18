@@ -149,7 +149,7 @@ img[src="assets/images/blank.gif"] {
   font-size: 13px;
   line-height: 22px;
   border-radius:0;
-  padding: 6px 14px;
+  padding: 5px 10px;
   font-family: 'Montserrat', sans-serif;
   border-radius:2px
 
@@ -1061,7 +1061,7 @@ a {
   border-top-color: #12cca7;
 }
 .product-comparison .compare-table tr td .product-price .price {
-  color: #12cca7;
+  color: #ff2d2b;
 }
 .product-comparison .compare-table tr td .in-stock {
   color: #12cca7;
@@ -1071,7 +1071,7 @@ a {
   color: #12cca7;
 }
 .product-comparison .compare-table tr td .product-price .price {
-  color: #12cca7;
+  color: #ff2d2b;
 }
 .product-comparison .compare-table tr td .in-stock {
   color: #12cca7;
@@ -2617,7 +2617,25 @@ age-container #owl-main .owl-next {
   font-family:'Open Sans', sans-serif
   
 }
-
+.cat-title {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.cat_item_store .cat-title-main {
+    position: relative;
+    color: #fff;
+    background: #dd0302;
+    padding: 12px 25px 12px 215px;
+    box-sizing: border-box;
+    font-weight: 700;
+    line-height: 1.1;
+    border-radius: var(--border-radius);
+    width: 510px;
+    text-align: left;
+    max-width: 100%;
+    float: left;
+}
 /*===================================================================================*/
 /*  Home Tabs
 /*===================================================================================*/
@@ -2633,13 +2651,17 @@ age-container #owl-main .owl-next {
   padding-bottom: 10px;
   padding: 15px 20px;
 }
+.scroll-tabs .more-info-tab ul li a {
+  color: #fff;
+}
 .scroll-tabs .more-info-tab .new-product-title {
   margin-bottom: 0px;
   margin-top: 5px;
   font-size:16px;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
-  font-weight:bold
+  font-weight:bold;
+  color: #fff;
 }
 .scroll-tabs .nav-tab-line {
   border-bottom: none;
@@ -2666,7 +2688,7 @@ age-container #owl-main .owl-next {
   background: rgba(0, 0, 0, 0);
 }
 
-.tab-content {padding-left:0px}
+.tab-content {padding-left:20px}
 
 .product {
   position: relative;
@@ -3432,6 +3454,7 @@ age-container #owl-main .owl-next {
   font-size: 16px;
   line-height: 30px;
   margin-right: 8px;
+  color: #ff2d2b;
 }
 .hot-deals .product-info .product-price .price-before-discount {
   text-decoration: line-through;
@@ -4002,7 +4025,7 @@ age-container #owl-main .owl-next {
   right: -8px;
 }
 .single-product .product-tabs .tab-content {
- padding-left:0px
+ padding-left:0px;
 }
 .single-product .product-tabs .tab-content .tab-pane {
   padding: 8px 8px 8px 0;
@@ -4260,6 +4283,7 @@ age-container #owl-main .owl-next {
 .single-product .second-gallery-thumb.gallery-thumbs #owl-single-product2-thumbnails .owl-wrapper-outer {
   margin-left: 5px;
 }
+
 .product-tabs .tab-content .tab-pane .product-reviews .title {
   color: #666666;
   font-size: 14px;
@@ -4690,7 +4714,7 @@ age-container #owl-main .owl-next {
     padding: 0 15px;
   }
   .product-comparison .compare-table tr td .product .product-image .image img {
-    width: auto;
+    width: 100%;
   }
   
 .hot-deals .products {margin-right:15px}
@@ -5531,7 +5555,7 @@ age-container #owl-main .owl-next {
   border: 1px solid #e5e5e5;
 }
 .product-comparison .compare-table tr td {
-  padding: 18px 30px;
+  padding: 10px ;
   border: 1px solid #e5e5e5;
 }
 .product-comparison .compare-table tr td .product {
@@ -5541,6 +5565,27 @@ age-container #owl-main .owl-next {
 .product-comparison .compare-table tr td .product .product-image .image a {
   display: block;
   text-align: left;
+}
+.product-comparison .compare-table tr td .product .product-image .product-info .star {
+  margin-top: 10px;
+}
+.product-comparison .compare-table tr th ul .active {
+  width: 100%;
+  margin-right: 10px;
+  padding: 8px 10px;
+  font-size: .8em;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 10px;
+  border-radius: 1rem;
+  filter: drop-shadow(0 4px 4px rgba(0,0,0,.1));
+  color: #3f3f3f;
+  text-align: center;
+  font-weight: 500;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 15px;
 }
 .product-comparison .compare-table tr td .product-price .price {
   font-size: 16px;
